@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <% include styles.ejs %>
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="card-header">
+                Recupero de contraseña
+            </div>
+            <div class="card-body">
+                <p class="card-text">Se ha solicitado el recupero de contraseña. Si esto es cierto, haga click en el 
+                    siguiente enlace para cambiarla.
+                </p>
+                <a styles="color: red;" href="http://173.82.168.76/recuperar?token=<%=token%>">
+                    <b>
+                        Cambiar contraseña
+                    </b>
+                </a>
+                <p class="card-text">
+                    Si NO ha solicitado el recupero de contraseña, ignore este correo.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

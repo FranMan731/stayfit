@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <% include styles.ejs %>
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="card-header">
+                Bienvenido
+            </div>
+            <div class="card-body">
+                <p class="card-text"><h3>Equipo de StayFit</h3></p>
+                <p class="card-text">
+                    Le damos la bienvenida a StayFit, espero que pueda disfrutar de nuestra aplicación.
+                </p>
+                <p class="card-text">Si usted <b>NO</b> ha creado una cuenta con este email en la aplicación de StayFit,
+                presione en el siguiente link para dar de baja al usuario.</p>
+                <a styles="color: red;" href="http://173.82.168.76:65000/validacion/<%=token%>">
+                    <b>NO HE CREADO UN USUARIO</b>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
