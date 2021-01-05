@@ -13,7 +13,7 @@
     "apollo-boost": "^0.3.1",
     "apollo-link-context": "^1.0.17",
     "apollo-link-error": "^1.1.10",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chartist": "0.10.1",
     "classnames": "2.2.6",
     "form-data": "^2.3.3",
